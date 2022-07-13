@@ -14,7 +14,7 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from Asura import get_command, asura
 
-SUDOERS = filters.user([1906005317, 5365575465])
+SUDOERS = filters.user([1593338093,5565657998])
 
 async def aexec(code, client, message):
     exec(
