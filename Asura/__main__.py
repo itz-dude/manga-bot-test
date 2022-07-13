@@ -142,33 +142,33 @@ async def hhelp(_, query):
 async def abblp(_, query):
   qm = query.message
   return await qm.edit_text(
-    text=f"Hey There,\nI am {BOT_NAME}\nMade with ❤️ by @TechZBots\nBelow Are Some Useful Links", 
+    text=f"Hey There,\nI am {BOT_NAME}\nMade with ❤️ by @MangaX_updates\nBelow Are Some Useful Links", 
     reply_markup=InlineKeyboardMarkup(
       [
         [
           InlineKeyboardButton(
             text="Support",
-            url="t.me/Techzbots_support"
+            url="t.me/mangax_help"
           ),
           InlineKeyboardButton(
             text="Updates",
-            url="t.me/TechZBots"
+            url="t.me/MangaX_updates"
           )
         ],
         [
           InlineKeyboardButton(
             text="DEV",
-            user_id=5365575465
+            user_id=1593338093
           ),
           InlineKeyboardButton(
             text="Manga Channel",
-            url="t.me/The_Manga_Hub"
+            url="t.me/MangaX_robot"
           )
         ],
         [
           InlineKeyboardButton(
-            text="Repo",
-            url="https://github.com/AuraMoon55/Asura-Scans-Leecher"
+            text="Anime",
+            url="https://airinganimes.co"
           ),
           InlineKeyboardButton(
             text="Back",
